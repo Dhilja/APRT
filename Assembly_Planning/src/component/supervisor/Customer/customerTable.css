@@ -1,0 +1,33 @@
+
+  .user-table2 {
+    width: 95%;
+    border-collapse: collapse;
+    margin: 20px auto;
+    color: #037286;
+  }
+    
+  .user-table2 th {
+    border: 2px solid #a1a1a1;
+    padding: 8px;
+    text-align: left;
+    background-color: #037286;
+    color: #FFFFFF;
+  }
+  
+  .user-table2 td {
+    border: 2px solid #a1a1a1;
+    background-color:#FFFFFF;
+    padding: 8px;
+    text-align: left;
+    color: #000000;
+  }
+  
+  .user-table2 tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .user-table2 tr:hover {
+    background-color: #ddd;
+  }
+  
+  

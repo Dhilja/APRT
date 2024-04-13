@@ -1,0 +1,153 @@
+body{
+    background-color: #1C336C;
+}
+.Container1{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    height: 1000px;
+    
+}
+
+
+.container1 {
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  justify-content: space-between; /* Adjust as needed for spacing between blocks */
+  align-items: center;
+  padding: 10px;
+  display: flex;
+  }
+  
+  .actblock1,
+  .actblock2,
+  .actblock3 {
+    flex: 0 0 30%; /* Set a fixed width of 30% for each block */
+    box-shadow: 4px 4px 6px -2px rgba(0, 0, 0, 0.3);
+    height: 250px;
+    background-color: rgb(233, 233, 233);
+    margin: 1px;
+    border-radius: 20px;
+  }
+  
+
+.Header1{
+    padding:10px;
+    box-shadow: 4px 4px 6px -2px rgba(0, 0, 0, 0.3);
+    display: flex;
+    align-items: center;
+    background-color: rgb(233, 233, 233);
+    height: 40px;
+    border-radius: 10px;
+}
+
+.logo1{
+    margin-right: 10px;
+}
+
+.pages1 {
+    flex: 1;
+    text-align: center;
+    position: relative;
+    display: inline-block;
+    color:#1c336c;
+    font-size: 13px;
+ 
+}
+
+.headerText1{
+    cursor:pointer;
+}
+
+.headerText1::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 0;
+    height: 3px;
+    background-color: hsl(180.3deg 100% 39.02%);
+    transition: width 0.2s ease-in-out;
+}
+  
+.headerText1:hover::after {
+    width: calc(100% - 30%);
+}
+
+.logout1{
+    margin-left: 80px;
+    color:#1c336c;
+    padding:8px;
+    cursor:pointer;
+    border-radius: 8px;
+    border: 2px solid #1C336C;
+    background: #FFF;
+    box-shadow: 1px 2px 4px 1px rgba(0, 0, 0, 0.35);
+}
+
+.logout1:hover{
+    background-color:#1C336C;
+    color:#fff;
+    border: 2px solid #ffffff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding:6px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.logout1:active {
+    background-color: #1C336C;
+    box-shadow: 0 2px #666;
+    transform: translateY(1px);
+  }
+  
+  .dialog1 {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgb(222, 222, 222);
+    padding: 20px;
+    border: 2px solid;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+    height: 80px;
+    width: 300px; /* Adjust the width as needed */
+  }
+  
+  .dialog1 p {
+    margin-bottom: 10px;
+    font-size: 18px;
+  }
+  
+  .dialog1 button {
+    padding: 8px 16px;
+    background-color: #1C336C;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  .dialog1 button:hover {
+    background-color: #00C7C8;
+    color: black;
+  }
+
+.confirmLogout1{
+    margin-left: 90px;
+    margin-bottom: 1px;
+    padding-bottom: 100 px;
+}
+
+  .yesbtn1{
+    margin-left: 50px;
+  }
+
+  .buttons1{
+    margin-left: 70px;
+    margin-top: 33px;
+  }

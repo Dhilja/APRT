@@ -1,0 +1,35 @@
+.BoxText {
+    text-align: center;
+    margin-top: 50px;
+  }
+
+  .labels{
+    color: white;
+    margin-bottom: 5px;
+    margin-top: 23px;
+    margin-right: 10px;
+  }
+
+  .labels1{
+    color: white;
+    margin-bottom: 5px;
+    margin-top: 23px;
+    margin-right: 100px;
+  }
+  
+  .textbox-row {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 50px;
+    margin-top: 40px;
+  }
+
+  .textbox {
+    width: 100px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 100px;
+    margin-top: 20px;
+  }
+  

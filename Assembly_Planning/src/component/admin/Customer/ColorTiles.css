@@ -1,0 +1,145 @@
+.ColorTiles {
+    text-align: center;
+  }
+  
+  input[type="number"] {
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  .buttons-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .number-button {
+    width: 50px;
+    height: 50px;
+    border: none;
+    margin: 5px;
+    cursor: pointer;
+  }
+  
+  .number-button:hover {
+    background-color: #2980b9;
+  }
+
+  /* Default color for tiles with an unknown status */
+.unknown-color {
+  background-color: grey; /* Change to your desired color */
+  color: white;
+}
+
+/* Color for tiles with a "Placed" status */
+.placed-color {
+  background-color: green; /* Change to your desired color */
+  color: white;
+}
+
+/* Color for tiles with a "Not Placed" status */
+.not-placed-color {
+  background-color: blue; /* Change to your desired color */
+  color: white;
+}
+  
+  .dialogbox {
+    background-color: #cacaca;
+    border: 1px solid #8f8d8d;
+    height: 175px;
+    width: 300px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    border: 2px solid black;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    border-radius: 5px;
+    z-index: 1000;
+    box-shadow: 1px 2px 4px 1px rgba(0, 0, 0, 0.35);
+  }
+  
+  .dialogbox h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: white;
+  }
+  
+  .dialogbox div {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  .dialogbox span {
+    font-weight: bold;
+    margin-right: 5px;
+    color: white;
+  }
+
+  .dialogbox label {
+    font-weight: bold;
+    margin-right: 5px;
+    color: white;
+  }
+
+  
+  .scan-button {
+    padding: 8px 16px;
+    background-color: #1C336C;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  .scan-button:hover {
+    background-color: #00C7C8;
+    color: black;
+  }
+
+  .close-button {
+    padding: 8px 16px;
+    margin-right: 20px;
+    background-color: #1C336C;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  .close-button:hover {
+    background-color: #00C7C8;
+    color: black;
+  }
+  
+  .reject-button {
+    padding: 8px 16px;
+    background-color: #1C336C;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  .reject-button:hover {
+    background-color: #00C7C8;
+  }
+
+  .submit-button {
+    padding: 8px 16px;
+    background-color: #1C336C;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  .submit-button:hover {
+    background-color: #00C7C8;
+  }

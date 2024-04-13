@@ -1,0 +1,57 @@
+.circular-progress-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .circular-progress {
+    width: 120px;
+    height: 120px;
+    transform: rotate(-90deg);
+  }
+  
+  .background-circle {
+    fill: none;
+    stroke: #c60505;
+    stroke-width: 8;
+  }
+  
+  .progress-circle {
+    fill: none;
+    stroke: #48f96e;
+    stroke-width: 8;
+    stroke-linecap: round;
+    stroke-dashoffset: 0;
+    transition: stroke-dashoffset 0.3s ease-in-out;
+  }
+  
+  .label-container {
+    display: flex;
+  }
+  
+  .label1 {
+    display: flex;;
+    font-size: 15px;
+    margin: -10px 20px 15px;
+  }
+
+  .label2 {
+    display: flex;
+    font-size: 15px;
+    margin: -10px 20px 15px 50px;
+  }
+  
+  .color-box {
+    width: 15px;
+    height: 15px;
+    margin-top: 2px;
+    margin-right: 5px;
+    border-radius: 3px;
+  }
+  
+  
+  .percentage {
+    text-anchor: middle;
+    font-size: 14px;
+    font-weight: bold;
+  }

@@ -1,0 +1,79 @@
+.Scanner {
+  background-color: #8f8d8d;
+  border: 1px solid #8f8d8d;
+  padding: 20px;
+  height: 600px;
+  width: 600px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 999;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.Scanner h1 {
+  color: black;
+  text-align: center;
+}
+
+.scanner-result {
+  margin-top: 100px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.result {
+  color: black;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.mno,
+.trace {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 30px;
+}
+
+.mno label,
+.trace label {
+  font-weight: bold;
+}
+
+.mno span,
+.trace span {
+  margin-left: 20px;
+  font-weight: bold;
+}
+
+.save-button {
+  background-color: #1c336c;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 50px;
+  cursor: pointer;
+}
+
+.save-button:hover {
+  background-color: #00c7c8;
+}
+
+#reader {
+  width: 600px;
+  height: 400px;
+  margin-top: 60px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  position: relative;
+}
+
+
