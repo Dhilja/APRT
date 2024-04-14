@@ -42,6 +42,12 @@ function Login(){
     };
     image.src = user;
   }, []);
+
+  const handleKeyPress = (e) => {
+    if (e.key === 'Enter') {
+      handleLogin();
+    }
+  };
     return(
     <>
    
@@ -80,6 +86,7 @@ function Login(){
             className="input"
             value={password}
             onChange={(e) => setPassword(e.target.value)}
+            onKeyPress={handleKeyPress} // Assign handleKeyPress to onKeyPress event
           />
        </div>
        <div className="Buttons">
